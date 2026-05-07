@@ -1,0 +1,79 @@
+.app-shell {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 2rem 1rem 3rem;
+}
+
+.page-header {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.creator-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-top: 1.5rem;
+}
+
+.creator-card {
+  border: 1px solid #d8d8d8;
+  border-radius: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding: 1rem;
+}
+
+.creator-image,
+.detail-image {
+  border-radius: 0.5rem;
+  max-height: 220px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-actions,
+.detail-actions,
+.form-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.creator-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 560px;
+}
+
+.creator-form input,
+.creator-form textarea {
+  border: 1px solid #c6c6c6;
+  border-radius: 0.4rem;
+  font: inherit;
+  padding: 0.55rem;
+}
+
+.creator-form textarea {
+  min-height: 110px;
+  resize: vertical;
+}
+
+button {
+  background: #1f5eff;
+  border: none;
+  border-radius: 0.4rem;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  padding: 0.45rem 0.8rem;
+}
+
+button:hover {
+  background: #1848c4;
+}
